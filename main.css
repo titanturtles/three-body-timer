@@ -1,0 +1,28 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	-webkit-app-region: no-drag;
+	background-color: transparent;
+	display: flex;
+	cursor: text;
+	justify-content: space-between;
+	text-align: center;
+	color: #999999;
+	user-select: none;
+	font-family: monospace;
+	font-size: 60px;
+}
+
+#close {
+	padding: 5px;
+	font-size: .8em;
+	color: grey;
+	--webkit-app-region: no-drag;
+}
+
+#close:hover {
+	color: #14ff62;
+}

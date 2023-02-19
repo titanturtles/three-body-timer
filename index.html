@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+    <link rel="stylesheet" href="./main.css">
+    <style>
+      @import url('https://fonts.cdnfonts.com/css/roboto-mono');
+    </style>
+                
+    <title>3 Body Timer</title>
+  </head>
+  <body>
+    <h1 id='timer'>1800:00:00</h1>
+    <!-- <p id='close'>&#10006;</p> -->
+
+    <script src="./renderer.js" defer></script>
+  </body>
+</html>
