@@ -1,6 +1,8 @@
-# 3 body timer
+# three body timer
 
 This is an electron project to mimic the countdown timer in The Three-Body Problem novel.
+
+![example on mac](https://github.com/titanturtles/three-body-timer/blob/main/assets/dmg-background.png?raw=true)
 
 ## TODO
 
